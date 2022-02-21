@@ -64,17 +64,24 @@ img {
   height: 50px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .font-big {
-    font-size: 125%;
+    font-size: 125% !important;
   }
 
   .font-regular {
-    font-size: 75%;
+    font-size: 75% !important;
   }
 
   .project-grid {
-    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 1rem  !important;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr))  !important;
+  }
+
+  .vaporwave-spacing {
+    letter-spacing: .75rem !important;
+    word-spacing: 100vw !important;
+    margin-bottom: 1rem !important;
   }
 }
 
