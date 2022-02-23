@@ -1,3 +1,3 @@
 # Portfolio
 
-[GH-PAGES](https://danielnaoexiste.github.io)
+Hosted on [GH-PAGES](https://danielnaoexiste.dev)
